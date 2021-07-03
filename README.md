@@ -2,7 +2,7 @@
 
 ## LUL
 
-|> required `pnpm`
+> required `pnpm`
 
 ## Install
 
