@@ -1,9 +1,9 @@
 import { FastInstanceResult } from '../app';
-import { hello } from '../controllers/hello';
+import { postDekisugi } from '../controllers/dekisugi';
 
 export function setupAllRoutes(fast: FastInstanceResult): FastInstanceResult {
-    // TODO: change style
-    fast.get('/', { ...hello });
+    // discord bot
+    fast.post('/dekisugi', postDekisugi);
 
     return fast;
 }

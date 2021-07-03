@@ -1,0 +1,1 @@
+export { postDekisugi } from './post';
